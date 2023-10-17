@@ -1,0 +1,12 @@
+1) Este escript funciona en eun etorno de Ubuntu server 20.04
+2) Los archivos eben ser colocado en el sisguiente directorio /opt/script/
+3) Deben editar los acript y colocar la informacion de su servidor reemplazando donde encuentren "miserver.com"
+4) Deben asignar el privilegio de ejecucion a los archivos .sh
+5) una vez que confirme que el escript este funcionando bien en el server se debe configurar las tarean crom con los siguietnes comandos
+  # crontab -e  
+  --Este comando permite editar las tareas crom, se mostrata un editor de texto o te permitira escoger uno para abrir la edicion.
+  -- una vez abierta la ventana de edicion ve al final del archivo y agrega la siguiente linea
+  */10 * * * * /opt/script/monitor_zimbra.sh >> /opt/script/ejecucion_tarea.txt
+  -- esto ejecutara el script cada 10 minutos
+  -- hay que considerar que el script fue optimizado para comenzar en la ultima linea de la ejecucion anterior para evitar trabajo duplicado.
+  
