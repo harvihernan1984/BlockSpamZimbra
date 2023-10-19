@@ -13,3 +13,5 @@ Una vez que se realizó un análisis de las soluciones ofertadas en el mercado, 
 
 
  
+![Diagrama de red de correo electronico](https://github.com/harvihernan1984/BlockSpamZimbra/assets/54752156/470016b8-13f7-483e-ac0a-c0711c65b9ca)
+
