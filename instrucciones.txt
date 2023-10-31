@@ -1,6 +1,6 @@
 1) Este escript funciona en eun etorno de Ubuntu server 20.04
-2) Los archivos eben ser colocado en el sisguiente directorio /opt/script/
-3) Deben editar los acript y colocar la informacion de su servidor reemplazando donde encuentren "miserver.com"
+2) Los archivos deben ser colocados en el sisguiente directorio /opt/script/
+3) Deben editar los script y colocar la informacion de su servidor reemplazando donde encuentren "miserver.com"
 4) Deben asignar el privilegio de ejecucion a los archivos .sh
 5) una vez que confirme que el escript este funcionando bien en el server se debe configurar las tarean crom con los siguietnes comandos
   # crontab -e  
